@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @captodo.name %>
+</p>
+
+<p>
+  <strong>Finished:</strong>
+  <%= @captodo.finished %>
+</p>
+
+<%= link_to 'Edit', edit_captodo_path(@captodo) %> |
+<%= link_to 'Back', captodos_path %>
